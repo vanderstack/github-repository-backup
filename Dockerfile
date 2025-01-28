@@ -6,7 +6,7 @@ RUN apk add --no-cache \
     git \
     curl \
     jq \
-    && curl -fsSL https://github.com/cli/cli/releases/latest/download/gh_2.35.0_linux_amd64.tar.gz | tar -xz -C /usr/local/bin --strip-components=2 gh_2.35.0_linux_amd64/bin/gh \
+    && curl -fsSL https://github.com/cli/cli/releases/download/v2.65.0/gh_2.65.0_linux_amd64.tar.gz | tar -xz -C /usr/local/bin --strip-components=2 gh_2.35.0_linux_amd64/bin/gh \
     && chmod +x /usr/local/bin/gh
 
 # Set environment variables
